@@ -1,74 +1,28 @@
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <app-logo></app-logo>
-            </li>
-          </ul>
-        </div>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="email">  
-              <img src="assets/icons/email.svg" alt="email">       
-              <a href="mailto:info@oktravel.ge">info@smart.ge</a>
-            </li>
-            <li class="phone">
-              <img src="assets/icons/mobile.svg" alt="phone">
-              <a href="tel:(032) 2 77 77 77">(032) 2 77 77 77</a>
-            </li>  
-
-          </ul>
-
-        <div class="header-end">
-            <div class="facebook">
-              <img src="assets/icons/fb-orange.svg" alt="phone">
-            <a href="#"></a>
             
-          </div>
-          <div class="instagram">
-            <img src="assets/icons/fb-orange.svg" alt="phone">
-          <a href="#"></a>
-          
-        </div>
-
-            <div class="languages">
-              <label for="">
-                <select id="select" class="text-uppercase"  #langselect (change)="translate.use(langselect.value)">
-                  <option *ngFor="let lang of translate.getLangs()" class="text-uppercase" [value]="lang">{{lang}}</option>
-                </select>
-              </label>
-            </div>
-
-
-
-          </div>
-
-        </div>
-      </div>
-    </nav>
-  </header>
-
-      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <label for="">
-            <select id="select" class="text-uppercase"  #langselect (change)="translate.use(langselect.value)">
-              <option *ngFor="let lang of translate.getLangs()" class="text-uppercase" [value]="lang">{{lang}}</option>
-            </select>
-          </label>
-        </ul>
-      </div> -->
+<nav class="navbar">
+  <div class="centered-tags">
+    <div class="tag">
+      <img src="/assets/icons/email.svg" alt="email" class="icon">
+      <a href="#">admiral@gmail.com</a>
+    </div>
+    <div class="tag">
+      <img src="/assets/icons/mobile.svg" alt="phone" class="icon">
+      <a href="#">0322 4444444</a>
+    </div>
+  </div>
+  <div class="right-aligned-tags">
+    <img src="/assets/icons/fb-orange.svg" alt="facebook" class="internet">
+    <img src="/assets/icons/instagram.svg" alt="facebook" class="internet">
+    <label class="languages" for="">
+      <select id="select" class="text-uppercase"  #langselect (change)="translate.use(langselect.value)">
+        <option *ngFor="let lang of translate.getLangs()" class="text-uppercase" [value]="lang">{{lang}}</option>
+      </select>
+    </label>
+  </div>
+</nav>
 
 
-   <!-- <div class="collapse navbar-collapse languages" id="languages">
-          <ul class="languages-button">
-            <a onclick="return changeLang('ge')" href="#" type="button">GE</a>
-            <a onclick="return changeLang('en')" href="#" type="button">EN</a>
-            <a onclick="return changeLang('ru')" href="#" type="button">RU</a>
-          </ul>
-        </div>
-        <div> -->
+</header>
+
 
