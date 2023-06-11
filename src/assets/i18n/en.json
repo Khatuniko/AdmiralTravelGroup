@@ -12,8 +12,9 @@
     "RESTAURANT": "restaurant",
     "CARS": "and Transfers",
     "CONTACT-INFO":"Contact Information",
-    "ADRESS": "Pekini str.2"
-
+    "ADRESS": "Pekini str.2",
+    "COVER-TEXT" : "Plan Your Trip With Us",
+    "COVER-SPAN" : "Our professional consultants will propose your perfect route"
     
 
 } 
