@@ -1,0 +1,24 @@
+.card-body {
+    margin: 20px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5, p {
+    display: inline !important;
+    padding:16px;
+}
+
+.second {
+    font-weight: bold;
+}
+
+.second-line{
+    margin-top:16px;
+    // padding:16px;
+}
+
+
