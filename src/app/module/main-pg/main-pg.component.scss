@@ -45,6 +45,8 @@
   }
   
 
+//start about-us section
+
 .about-us {
   height: 40rem;
   margin-top:144px;
@@ -120,6 +122,10 @@ top: 1001px;
 border-radius: 8px;
   }
 }
+
+
+//start outbound-tours and local-tours section 
+
 
 .outbound-tours, .local-tours {
   margin-left: 204px;
@@ -216,6 +222,8 @@ h5, p {
 
 }
 
+//start transfers section
+
 .transfers {
   margin-left: 204px;
   margin-top:2rem; 
@@ -241,20 +249,20 @@ h5, p {
 .car-photo {
   width: 744px;
   height: 568px;
-  border-radius: 8px;
-  padding:24px;
-  
+  border-radius: 8px;  
 }
 
-// aqedan unda gavaketo/photoc unda gaketdes aq  transfer tavidan bolomde
+.row {
+  width: 1536px;
+}
+
 
 .card-body {
   margin-top:24px;
   background-color: #EBECEE;
   border-radius: 8px;
-  width: 712px;
+  width: 744px;
   height: 96px;
-  padding:24px;
 }
 
 .card-title{
@@ -265,9 +273,13 @@ font-style: normal;
 font-weight: 800;
 font-size: 16px;
 line-height: 22px;
-padding: 8px;
+// padding: 8px;
 
 }
+
+
+
+
 .card-date {
   height: 22px;
   font-family: 'Nunito';
@@ -279,35 +291,46 @@ padding: 8px;
   
 }
 
-// .first-line {
-//   display: flex;
-//   justify-content: space-between;
-// }
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
 
-// h5, p {
-//   display: inline !important;
-//   padding:16px;
-// }
-
-// .second {
-//   font-weight: bold;
-// }
-
-
-// .second-line{
-//   margin-top:16px;
-// }
-
-
-// .card-container {
-//   display: flex;
-// }
-
-
-// }
-
-
-
+  img {
+    width: 24px;
+    height: 21px;
+  }
 }
+
+h5, p {
+  display: inline !important;
+  padding:16px;
+}
+
+.second {
+  font-weight: bold;
+}
+
+
+.second-line{
+  margin-top:16px;
+  margin-left:4px;
+
+  img {
+    height: 16px;
+    width: 16px;
+  }
+  p {
+    margin:12px;
+
+  }
+}
+}
+
+//start blog section 
+
+
+
+
 
 
