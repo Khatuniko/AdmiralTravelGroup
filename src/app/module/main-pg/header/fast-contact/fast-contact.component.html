@@ -13,7 +13,7 @@
   </div>
   <div class="right-aligned-tags">
     <img src="/assets/icons/facebook.svg" alt="facebook" class="social-media" (click)="goToFacebook()">
-    <img src="/assets/icons/instagram.svg" alt="facebook" class="social-media" (click)="goToInstagram()">
+    <img src="/assets/icons/instagram.svg" alt="instagram" class="social-media" (click)="goToInstagram()">
     <label class="languages" for="">
       <select id="select" class="text-uppercase"  #langselect (change)="translate.use(langselect.value)">
         <option *ngFor="let lang of translate.getLangs()" class="text-uppercase" [value]="lang">{{lang}}</option>
