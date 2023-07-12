@@ -1,13 +1,107 @@
-.card {
-    margin:50px;
-    padding:20px;
-}
-
-.container  {
-    background-size: cover;
-    background-repeat: no-repeat;
-    // height: 100vh;
-    background-color: #F1F1F1;
-}
-
+.transfers {
+    margin-left: 204px;
+    margin-top:2rem; 
+    
   
+    h1{
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    font-size: 56px;
+  
+  }
+  
+  
+  .card {
+    border: none;
+    width: 360px;
+    height: 400px;
+    
+  }
+  .car-photo {
+    width: 744px;
+    height: 568px;
+    border-radius: 8px;  
+    top: 3525px;
+  
+  
+  }
+  
+  .row {
+    width: 1536px;
+  }
+  
+  
+  .card-body {
+    margin-top:24px;
+    background-color: #EBECEE;
+    border-radius: 8px;
+    width: 744px;
+    height: 96px;
+  }
+  
+  .card-title{
+    height: 22px;
+    color: var(--blue-color);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  
+  }
+  
+  
+  
+  
+  .card-date {
+    height: 22px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 8px;
+    
+  }
+  
+  .first-line {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  
+    img {
+      width: 24px;
+      height: 21px;
+  
+    }
+  }
+  
+  h5, p {
+    display: inline !important;
+    padding:16px;
+  }
+  
+  .second {
+    font-weight: bold;
+  }
+  
+  
+  .second-line{
+    margin-top:16px;
+    margin-left:4px;
+  
+    img {
+      height: 16px;
+      width: 16px;
+    }
+    p {
+      margin:12px;
+  
+    }
+  }
+  }
