@@ -16,7 +16,16 @@
     "COVER-TEXT" : "Plan Your Trip With Us",
     "COVER-SPAN" : "Our professional consultants will propose your perfect route",
     "BUTTON":"Read More",
-    "BEST": "Best Destination"
+    "BEST": "Best Destination",
+    "PRICE": "Price",
+    "PARIS":"Paris",
+    "BALI":"Bali",
+    "ITALY":"Italy",
+    "KAKHETI":"Kakheti",
+    "ANANURI":"Ananuri",
+    "BATUMI":"Batumi",
+    "KAZBEGI":"Kazbegi",
+    "PASSANGER":"Passanger"
     
 
 } 
