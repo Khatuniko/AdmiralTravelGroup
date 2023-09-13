@@ -1,0 +1,33 @@
+{
+    "HOME": {
+    "SELECT": "Select Languages",
+    "MAIN": "Home",
+    "ABOUT-US": "About Us",
+    "OUTBOUND":"Outbound Tours",
+    "LOCAL": "Local Tours",
+    "TRANSFERS":"Transfers",
+    "BLOG":"Blog",
+    "CONTACT":"Contact Us",
+    "TEXT": "was founded in 2018, the team consists of people with many years of experience in tourism, who worked for many years for development inbound and outbound tourism. Company is owner of rafting company",
+    "RESTAURANT": "restaurant",
+    "CARS": "and Transfers",
+    "CONTACT-INFO":"Contact Information",
+    "ADRESS": "Pekini str.2",
+    "COVER-TEXT" : "Plan Your Trip With Us",
+    "COVER-SPAN" : "Our professional consultants will propose your perfect route",
+    "BUTTON":"Read More",
+    "BEST": "Best Destination",
+    "PRICE": "Price",
+    "PARIS":"Paris",
+    "BALI":"Bali",
+    "ITALY":"Italy",
+    "KAKHETI":"Kakheti",
+    "ANANURI":"Ananuri",
+    "BATUMI":"Batumi",
+    "KAZBEGI":"Kazbegi",
+    "PASSANGER":"Passanger"
+    
+
+} 
+
+}
