@@ -25,13 +25,13 @@ import { BlogComponent } from './module/main-pg/blog/blog.component';
 
 
 const routes:Routes = [
-  { path:'', component:ModuleComponent},
-  { path: 'about-us' ,component:AboutUsComponent },
-  { path: 'local-tours', component:LocalToursComponent},
-  { path: 'outbound-tours', component:OutboundToursComponent},
-  { path: 'transfers', component:TransfersComponent },
-  { path: 'blog', component:BlogComponent},
-  { path: 'contact-us', component:ContactUsComponent},
+  // { path:'', component:ModuleComponent},
+  // { path: 'about-us' ,component:AboutUsComponent },
+  // { path: 'local-tours', component:LocalToursComponent},
+  // { path: 'outbound-tours', component:OutboundToursComponent},
+  // { path: 'transfers', component:TransfersComponent },
+  // { path: 'blog', component:BlogComponent},
+  // { path: 'contact-us', component:ContactUsComponent},
 
 ]
 
